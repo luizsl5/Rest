@@ -1,0 +1,30 @@
+{
+  "name": "api_rest",
+  "version": "1.0.0",
+  "description": "Primeira api em Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/luizsl5/Rest.git"
+  },
+  "keywords": [
+    "node",
+    "rest"
+  ],
+  "author": "luiz Lourenlo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizsl5/Rest/issues"
+  },
+  "homepage": "https://github.com/luizsl5/Rest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
